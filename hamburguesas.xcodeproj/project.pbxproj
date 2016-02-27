@@ -12,6 +12,7 @@
 		559C8E421C80A55F003080C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C8E401C80A55F003080C8 /* Main.storyboard */; };
 		559C8E441C80A55F003080C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C8E431C80A55F003080C8 /* Assets.xcassets */; };
 		559C8E471C80A55F003080C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C8E451C80A55F003080C8 /* LaunchScreen.storyboard */; };
+		559C8E4F1C80E391003080C8 /* datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C8E4E1C80E391003080C8 /* datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		559C8E431C80A55F003080C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559C8E461C80A55F003080C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559C8E481C80A55F003080C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C8E4E1C80E391003080C8 /* datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				559C8E431C80A55F003080C8 /* Assets.xcassets */,
 				559C8E451C80A55F003080C8 /* LaunchScreen.storyboard */,
 				559C8E481C80A55F003080C8 /* Info.plist */,
+				559C8E4E1C80E391003080C8 /* datos.swift */,
 			);
 			path = hamburguesas;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559C8E4F1C80E391003080C8 /* datos.swift in Sources */,
 				559C8E3F1C80A55F003080C8 /* ViewController.swift in Sources */,
 				559C8E3D1C80A55F003080C8 /* AppDelegate.swift in Sources */,
 			);
@@ -247,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hamburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamburgueseria.hamburguesas;
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hamburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamburgueseria.hamburguesas;
